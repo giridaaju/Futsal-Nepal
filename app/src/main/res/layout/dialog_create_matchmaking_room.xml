@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp">
+
+    <TextView
+        android:id="@+id/tvDialogCreateMatchmakingRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Match"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDialogTotalPlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Total Players"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvDialogCreateMatchmakingRoom"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/tvDialogTotalPlayersAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="0"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnDialogAddTotalPlayers"
+        app:layout_constraintStart_toEndOf="@+id/btnDialogAddTotalPlayers"
+        app:layout_constraintTop_toTopOf="@+id/btnDialogAddTotalPlayers" />
+
+    <ImageButton
+        android:id="@+id/btnDialogSubtractPlayersNeeded"
+        android:layout_width="33sp"
+        android:layout_height="33sp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/ic_delete"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDialogRequiredPlayersAmount"
+        app:layout_constraintStart_toEndOf="@+id/tvDialogRequiredPlayersAmount"
+        app:layout_constraintTop_toTopOf="@+id/tvDialogRequiredPlayersAmount"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvDialogRequiredPlayersAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="0"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnDialogAddPlayersNeeded"
+        app:layout_constraintStart_toEndOf="@+id/btnDialogAddPlayersNeeded"
+        app:layout_constraintTop_toTopOf="@+id/btnDialogAddPlayersNeeded" />
+
+    <ImageButton
+        android:id="@+id/btnDialogAddPlayersNeeded"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDialogRequiredPlayers"
+        app:layout_constraintStart_toEndOf="@+id/tvDialogRequiredPlayers"
+        app:layout_constraintTop_toTopOf="@+id/tvDialogRequiredPlayers"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <TextView
+        android:id="@+id/tvDialogRequiredPlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="No. of Players Needed"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvDialogTotalPlayers"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageButton
+        android:id="@+id/btnDialogSubtractTotalPlayers"
+        android:layout_width="33sp"
+        android:layout_height="33sp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/ic_delete"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDialogTotalPlayersAmount"
+        app:layout_constraintStart_toEndOf="@+id/tvDialogTotalPlayersAmount"
+        app:layout_constraintTop_toTopOf="@+id/tvDialogTotalPlayersAmount" />
+
+    <ImageButton
+        android:id="@+id/btnDialogAddTotalPlayers"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="112dp"
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDialogTotalPlayers"
+        app:layout_constraintStart_toEndOf="@+id/tvDialogTotalPlayers"
+        app:layout_constraintTop_toTopOf="@+id/tvDialogTotalPlayers" />
+
+    <Spinner
+        android:id="@+id/spDialogFutsalNames"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/futsal_spinner"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvDialogFutsalName"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/tvDialogFutsalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Futsal"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvDialogRequiredPlayers"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/tvDialogDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Date"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/spDialogFutsalNames"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/tvDialogTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Time"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvDialogDate"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/tvDialogWinnersPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Winners Pay"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvDialogTime"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <CheckBox
+        android:id="@+id/cbDialogIsWinnersPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDialogWinnersPay"
+        app:layout_constraintStart_toEndOf="@+id/tvDialogWinnersPay"
+        app:layout_constraintTop_toTopOf="@+id/tvDialogWinnersPay" />
+
+    <Button
+        android:id="@+id/btnDialogCancelMatchmakingRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDialogAdditionalInfo"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <Button
+        android:id="@+id/btnDialogCreateMatchmakingRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:text="Create"
+        app:layout_constraintBottom_toBottomOf="@+id/btnDialogCancelMatchmakingRoom"
+        app:layout_constraintStart_toEndOf="@+id/btnDialogCancelMatchmakingRoom"
+        app:layout_constraintTop_toTopOf="@+id/btnDialogCancelMatchmakingRoom" />
+
+    <EditText
+        android:id="@+id/etDialogAdditionalInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Additional Info"
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toBottomOf="@+id/tvDialogWinnersPay"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/etDialogDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDialogDate"
+        app:layout_constraintStart_toEndOf="@+id/tvDialogDate"
+        app:layout_constraintTop_toTopOf="@+id/tvDialogDate" />
+
+    <EditText
+        android:id="@+id/etDialogTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDialogTime"
+        app:layout_constraintStart_toEndOf="@+id/tvDialogTime"
+        app:layout_constraintTop_toTopOf="@+id/tvDialogTime" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

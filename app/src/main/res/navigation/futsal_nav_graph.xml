@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/futsal_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.futsalnepalapp.files.ui.fragments.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_futsalInfoFragment"
+            app:destination="@id/futsalInfoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookingsFragment"
+        android:name="com.example.futsalnepalapp.files.ui.fragments.BookingsFragment"
+        android:label="BookingsFragment" />
+
+    <fragment
+        android:id="@+id/matchmakingFragment"
+        android:name="com.example.futsalnepalapp.files.ui.fragments.MatchmakingFragment"
+        android:label="MatchmakingFragment" >
+        <action
+            android:id="@+id/action_matchmakingFragment_to_matchmakingRoomFragment"
+            app:destination="@id/matchmakingRoomFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/inboxFragment"
+        android:name="com.example.futsalnepalapp.files.ui.fragments.InboxFragment"
+        android:label="InboxFragment" />
+
+    <fragment
+        android:id="@+id/futsalInfoFragment"
+        android:name="com.example.futsalnepalapp.files.ui.fragments.FutsalInfoFragment"
+        android:label="FutsalInfoFragment" >
+        <action
+            android:id="@+id/action_futsalInfoFragment_to_bookAFutsalFragment"
+            app:destination="@id/bookAFutsalFragment" />
+        <action
+            android:id="@+id/action_futsalInfoFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookAFutsalFragment"
+        android:name="com.example.futsalnepalapp.files.ui.fragments.BookAFutsalFragment"
+        android:label="BookAFutsalFragment" >
+        <action
+            android:id="@+id/action_bookAFutsalFragment_to_futsalInfoFragment"
+            app:destination="@id/futsalInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/matchmakingRoomFragment"
+        android:name="com.example.futsalnepalapp.files.ui.fragments.MatchmakingRoomFragment"
+        android:label="MatchmakingRoomFragment" >
+        <action
+            android:id="@+id/action_matchmakingRoomFragment_to_matchmakingFragment"
+            app:destination="@id/matchmakingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.futsalnepalapp.files.ui.fragments.ProfileFragment"
+        android:label="ProfileFragment" />
+</navigation>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvMatchmakingFutsalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Futsal Name"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvMatchmakingCreatedBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Created by:"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMatchmakingFutsalName" />
+
+    <TextView
+        android:id="@+id/tvMatchmakingDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Date:"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMatchmakingCreatedBy" />
+
+    <TextView
+        android:id="@+id/tvMatchmakingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Time:"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMatchmakingDate" />
+
+    <ImageView
+        android:id="@+id/ivPlayersIcon"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_people"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMatchmakingTime" />
+
+    <TextView
+        android:id="@+id/tvMatchmakingPlayersCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="0/12"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivPlayersIcon"
+        app:layout_constraintStart_toEndOf="@+id/ivPlayersIcon"
+        app:layout_constraintTop_toTopOf="@+id/ivPlayersIcon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

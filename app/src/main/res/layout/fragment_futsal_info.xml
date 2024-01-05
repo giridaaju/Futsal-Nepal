@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginTop="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivFutsalPics"
+            android:layout_width="343dp"
+            android:layout_height="303dp"
+            android:layout_marginBottom="4dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/btnCall"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <ImageButton
+            android:id="@+id/btnBackToHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_back_button"
+            app:layout_constraintBottom_toTopOf="@+id/tvFragFutsalName"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="28dp"
+            android:text="Call"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivFutsalPics" />
+
+        <Button
+            android:id="@+id/btnDirections"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:autoLink=""
+            android:text="Directions"
+            app:layout_constraintStart_toStartOf="@+id/btnCall"
+            app:layout_constraintTop_toBottomOf="@+id/btnCall" />
+
+        <TextView
+            android:id="@+id/tvFragFutsalName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Futsal Name"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/ivFutsalPics"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnBackToHome"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvFragPhoneNumber"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Phone Number"
+            app:layout_constraintBottom_toTopOf="@+id/tvFragPrice"
+            app:layout_constraintEnd_toEndOf="@+id/tvFragPrice"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tvFragPrice"
+            app:layout_constraintTop_toBottomOf="@+id/tvFragAddress" />
+
+        <TextView
+            android:id="@+id/tvFragAddress"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Address"
+            app:layout_constraintEnd_toEndOf="@+id/tvFragPhoneNumber"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tvFragPhoneNumber"
+            app:layout_constraintTop_toBottomOf="@+id/ivFutsalPics" />
+
+        <TextView
+            android:id="@+id/tvFragPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hourly Price"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.318"
+            app:layout_constraintStart_toEndOf="@+id/btnDirections"
+            app:layout_constraintTop_toBottomOf="@+id/tvFragPhoneNumber" />
+
+        <ImageView
+            android:id="@+id/ivMapScreenshot"
+            android:layout_width="343dp"
+            android:layout_height="303dp"
+            android:layout_marginTop="44dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnDirections"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

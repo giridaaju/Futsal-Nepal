@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/ivInboxProfilePicture"
+        android:layout_width="67dp"
+        android:layout_height="64dp"
+        android:src="@drawable/blank_avatar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvInboxSenderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:text="Sender Name"
+        app:layout_constraintStart_toEndOf="@+id/ivInboxProfilePicture"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvInboxLastMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        android:text="Incoming Message"
+        app:layout_constraintEnd_toEndOf="@+id/tvInboxSenderName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvInboxSenderName"
+        app:layout_constraintTop_toBottomOf="@+id/tvInboxSenderName" />
+
+    <TextView
+        android:id="@+id/tvNoOfUnseenMessages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_constraintBottom_toBottomOf="@+id/tvInboxSenderName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvInboxSenderName" />
+</androidx.constraintlayout.widget.ConstraintLayout>

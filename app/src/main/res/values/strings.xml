@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Futsal Nepal App</string>
+    <string name="google_maps_key">AIzaSyBfuv-Gp2S4xOApfdEwfIpDstaEAhdrfRk</string>
+
+    <string-array name="futsal_spinner">
+        <item>A-One Futsal and Football Academy</item>
+        <item>Adarsa Futsal</item>
+        <item>Baijanti Futsal</item>
+        <item>Balami Sports Center</item>
+        <item>Balchhi Dhurbe Futsal</item>
+        <item>Balkot Boyz Futsal</item>
+        <item>Ballpark Sports Events &amp; Academy</item>
+        <item>Banepa Futsal</item>
+        <item>Baneshwor Recreation Center</item>
+        <item>Best Futsal Imadol</item>
+        <item>BG Brothers Futsal</item>
+        <item>Bhadrakali Futsal and Recreation Center</item>
+        <item>Bhaktapur Futsal</item>
+        <item>Bhotebahal Futsal</item>
+        <item>Binayak Futsal Centre</item>
+        <item>Binayak Sports Complex</item>
+        <item>Bishal Futsal</item>
+        <item>Bode Futsal and Training Centre</item>
+        <item>Brother\'s Futsal and Snooker House</item>
+        <item>Buddhanagar Futsal</item>
+        <item>Busy Futsal</item>
+        <item>Chaitya Futsal</item>
+        <item>Champions Futsal</item>
+        <item>Chandragiri Futsal</item>
+        <item>Chapagaun Futsal</item>
+        <item>Chaur Recreational Center</item>
+        <item>Countryside Recreation Centre</item>
+        <item>Creative Futsal</item>
+        <item>Crystal Futsal</item>
+        <item>Cupon Sports Center</item>
+        <item>Dhanyentari Futsal</item>
+        <item>Dhobighat Futsal</item>
+        <item>Dhuku Sports Hub</item>
+        <item>DIG Futsal</item>
+        <item>Easy Futsal</item>
+        <item>Elite Futsal</item>
+        <item>Elite Sports Training Centre</item>
+        <item>Field Futsal</item>
+        <item>Five Five Soccer Center</item>
+        <item>Friends Star Futsal</item>
+        <item>Futsal Arena Boudha</item>
+        <item>Futsal Court Funpark</item>
+        <item>Futsal Park</item>
+        <item>Futsal Village</item>
+        <item>G4 Futsal &amp; Badminton</item>
+        <item>Gajurmukhee Futsal</item>
+        <item>Goalpost Futsal</item>
+        <item>Godawari Futsal</item>
+        <item>Gokarneshwor Futsal tatha Fitness Club</item>
+        <item>Grace Futsal</item>
+        <item>Grande Sports Center</item>
+        <item>Green Futsal</item>
+        <item>Green Wish Fitness Club &amp; Futsal Center</item>
+        <item>Hamro Futsal</item>
+        <item>Hamro Futsal</item>
+        <item>Hamro Futsal</item>
+        <item>Hamro Futsal</item>
+        <item>Harisiddhi Futsal</item>
+        <item>Hattiban Futsal</item>
+        <item>Healthy Futsal</item>
+        <item>Highway Futsal</item>
+        <item>Imadol Futsal</item>
+        <item>Imperial Futsal</item>
+        <item>Jadibuti Futsal</item>
+        <item>Jorpati Futsal</item>
+        <item>Kaasthamandap Futsal Academy</item>
+        <item>Kantipur Futsal and Training Center</item>
+        <item>Kathmandu Futsal</item>
+        <item>Khel Maidan Recreational Centre</item>
+        <item>Khwopa Futsal</item>
+        <item>Khwopa Futsal and Training Center</item>
+        <item>Kick Futsal</item>
+        <item>Kirtipur Futsal</item>
+        <item>Krinagar Futsal</item>
+        <item>Kumari Futsal</item>
+        <item>Lakhur Futsal</item>
+        <item>Lalitpur 5A Side Futsal</item>
+        <item>Le Himalaya Futsal Wellness Center</item>
+        <item>Legend Futsal</item>
+        <item>Lumbini Futsal Academy</item>
+        <item>Maa Baglamukhi Futsal</item>
+        <item>Mahalaxmi Futsal</item>
+        <item>Maidan Futsal</item>
+        <item>Manakamana Futsal</item>
+        <item>Manang Marsyangdi Futsal</item>
+        <item>Mate\'s Futsal</item>
+        <item>Matshya Recreation Center</item>
+        <item>Monastery Futsal</item>
+        <item>Mulpani Futsal Training Center</item>
+        <item>Nagarjun Futsal</item>
+        <item>Narkate Futsal</item>
+        <item>National Sports and Swimming Center</item>
+        <item>Nayapati Futsal Arena</item>
+        <item>Nepa Futsal</item>
+        <item>Nirvana Leisure Centre</item>
+        <item>North Point Futsal</item>
+        <item>One Tree Hill Futsal</item>
+        <item>Pasa Futsal and Food Pasal</item>
+        <item>Pasikot Futsal</item>
+        <item>Pheonix Futsal and Swimming Pool</item>
+        <item>Phutung Futsal</item>
+        <item>Players Futsal</item>
+        <item>Premier Futsal</item>
+        <item>Prime Futsal Gyaneshwor</item>
+        <item>Prismatic Futsal and Recreation Center</item>
+        <item>Promotional Futsal</item>
+        <item>Raftaar Futsal</item>
+        <item>Rave Futsal Center</item>
+        <item>River Field Futsal</item>
+        <item>RL Futsal</item>
+        <item>Royal Futsal</item>
+        <item>Royal Futsal</item>
+        <item>Rumble Futsal</item>
+        <item>S. Glory Futsal</item>
+        <item>Samakhusi Futsal</item>
+        <item>Sevenways Futsal &amp; Cricket Training Center</item>
+        <item>Shankhamul Futsal</item>
+        <item>Shantinagar Futsal</item>
+        <item>Sherpa Futsal Center</item>
+        <item>Shooters Futsal</item>
+        <item>Shrestha Swimming Pool and Futsal</item>
+        <item>Sinamangal Mini Futsal</item>
+        <item>SR Futsal</item>
+        <item>Star Futsal</item>
+        <item>Sunrise S.A.S Futsal</item>
+        <item>Surya Futsal</item>
+        <item>SV Futsal</item>
+        <item>Swoyambhu Recreation Center</item>
+        <item>Tahachal Physical Fitness Center</item>
+        <item>Taudaha Futsal</item>
+        <item>Thali Futsal</item>
+        <item>The Game Futsal</item>
+        <item>The Yellow House Futsal and Cafe</item>
+        <item>Trinetra Futsal Court</item>
+        <item>United Futsal</item>
+        <item>Vajra Futsal</item>
+        <item>Visionova Recreation Centre</item>
+        <item>Wakhat-Sunakothi Futsal</item>
+        <item>Wembley Goals Futsal Arena</item>
+        <item>White Horse Futsal</item>
+        <item>X-cel Futsal</item>
+        <item>Yala Futsal &amp; Recreational Center</item>
+    </string-array>
+    <string name="title_activity_register_user">RegisterUserActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>
